@@ -1,0 +1,25 @@
+{
+    "name": "webnexx/carcopy-api-client",
+    "version": "0.1.0",
+    "description": "a client to use the carapi from CarCopy https://www.carcopy.com/fahrzeugdaten-api/",
+    "type": "module",
+    "keywords": [
+        "carapi", "client", "soap"
+    ],
+    "scripts"    : {
+        "test": "atoum -f ./tests/test.php"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "CarApi": "lib/"
+        }
+    },
+    "support": {
+        "email": "support@carcopy.com"
+    },
+    "require-dev": {
+        "atoum/atoum": "^3.0@dev"
+    }
+}
